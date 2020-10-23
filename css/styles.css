@@ -1,0 +1,8 @@
+body {
+    font-family: "Verdana", sans-serif; 
+}
+
+.jumbotron {
+    background-color: linear-gradient(to right #28df99, #99f3bd);
+}
+
