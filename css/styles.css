@@ -9,6 +9,11 @@ header {
 nav {
     background-color: #f4f6ff /* color hunt 2552 */
 }
+.jumbotron {
+    margin:0;
+    padding: 30px;
+    background-color: linear-gradient(to right #28df99, #99f3bd);
+}
 
 .navbar a, .navbar span {
     color: #1200ff;
@@ -17,5 +22,39 @@ nav {
 .dropdown-menu {
     min-width:300px;
     color: #1200ff
+}
+#achieve{
+    padding: 25px;
+    margin: 0px;
+    justify-content: center;
+}
+#common{
+    background-color: tomato;
+}
+#newblog{
+    background-color: tomato;
+}
+#series{
+    background-color: skyblue;
+}
+#resources{
+    background-color:skyblue ;
+}
+#helpful{
+    background-color: #bd9f19;
+}
+#form{
+    padding: 25px;
+    border: solid skyblue;
+}
+#same{
+    background-color: skyblue;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #c0ac52;
 }
 
