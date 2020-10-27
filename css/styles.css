@@ -45,37 +45,56 @@ a.dropdown-item:hover {
 }
 
 #achieve{
+    background-color: #bbbfca;
+    height: 10px;
+    width: 1200px;
     padding: 25px;
     margin: 0px;
     justify-content: center;
 }
 #common{
-    background-color: tomato;
+    color:white;
+    background-color:#070d59;
 }
 #newblog{
-    background-color: tomato;
+    color: white;
+    background-color: #070d59;
 }
 #series{
-    background-color: skyblue;
+    color: white;
+    background-color:#070d59;
 }
 #resources{
-    background-color:skyblue ;
+    color: white;
+    background-color:#070d59 ;
 }
 #helpful{
-    background-color: #bd9f19;
+    background-color:tomato ;
 }
 #form{
     padding: 25px;
-    border: solid skyblue;
+    border: solid #bbbfca;
 }
 #same{
-    background-color: skyblue;
+    background-color: #bbbfca;
 }
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .carousel {
-    border: solid #c0ac52;
+    border: solid #bbbfca;
 }
-
+#reviews{
+    display:flex;
+    justify-content: center;
+}
+#reviews1{
+    text-align: center;
+}
+#middle{
+height: 10px;
+width: 1200px;
+padding: 25px;
+margin: 0px;
+justify-content: center;
+}
