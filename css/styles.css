@@ -7,22 +7,43 @@ header {
 }
 
 nav {
-    background-color: #f4f6ff /* color hunt 2552 */
-}
-.jumbotron {
-    margin:0;
-    padding: 30px;
-    background-color: linear-gradient(to right #28df99, #99f3bd);
+    background-color: #f4f6ff;
 }
 
-.navbar a, .navbar span {
+.navbar a {
+    color: #1200ff;
+}
+.navbar a:hover  {
+    color: #b400ff;
+}
+.navbar form button {
+    border-color: #1200ff;
+    border-radius: 30px;
     color: #1200ff;
 }
 
 .dropdown-menu {
+    background-color: #f4f6ff;
     min-width:300px;
-    color: #1200ff
 }
+a.dropdown-item {
+    color: #1200ff;
+}
+a.dropdown-item:hover {
+    color: #b400ff;
+}
+
+
+/* .custom-toggler.navbar-toggler { 
+    border-color: #1200ff; 
+}  */
+/* Setting the stroke to green using rgb values (0, 128, 0)  */
+  
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 0, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
 #achieve{
     padding: 25px;
     margin: 0px;
