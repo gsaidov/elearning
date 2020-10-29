@@ -52,6 +52,14 @@ a.dropdown-item:hover {
     margin: 0px;
     justify-content: center;
 }
+#icon{
+    color:black;
+
+}
+#text-color{
+    text-align: center;
+    color: #ee6f57;
+}
 #common{
     color:white;
     background-color:#070d59;
