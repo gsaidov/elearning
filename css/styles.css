@@ -16,10 +16,14 @@ nav {
 .navbar a:hover  {
     color: #b400ff;
 }
-.navbar form button {
+#signUpButton {
     border-color: #1200ff;
     border-radius: 30px;
     color: #1200ff;
+}
+#signUpButton:hover {
+    color: #b400ff;
+    background-color: #f4f6ff;
 }
 
 .dropdown-menu {
@@ -30,6 +34,21 @@ a.dropdown-item {
     color: #1200ff;
 }
 a.dropdown-item:hover {
+    color: #b400ff;
+}
+
+#navSearch {
+    border-radius: 30px 0 0 30px;
+    border-color: #1200ff;
+}
+
+#navSearchButton {
+    border-radius: 0 30px 30px 0;
+    border-color: #1200ff;
+    color: #1200ff;
+}
+
+#navSearchButton:hover {
     color: #b400ff;
 }
 
