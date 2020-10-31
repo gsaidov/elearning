@@ -53,12 +53,24 @@ a.dropdown-item:hover {
     justify-content: center;
 }
 #icon{
-    color:black;
+    color:blueviolet;
 
+}
+.img1{
+    max-width: 100%;
+    height: auto;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 2px ridge;
+    min-height: 200px; 
 }
 #text-color{
     text-align: center;
-    color: #ee6f57;
+    color: blue;
+}
+#same3{
+    background-color: #fbf7f0;
 }
 #common{
     color:white;
@@ -83,8 +95,14 @@ a.dropdown-item:hover {
     padding: 25px;
     border: solid #bbbfca;
 }
+#paragraph{
+    color: white;
+}
 #same{
-    background-color: #bbbfca;
+    background-color: #d9e4dd;
+}
+#same2{
+    background-color: #cdc9c3;
 }
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
@@ -98,6 +116,9 @@ a.dropdown-item:hover {
 }
 #reviews1{
     text-align: center;
+}
+.helpful{
+    background-color: #555555;
 }
 #middle{
 height: 10px;
