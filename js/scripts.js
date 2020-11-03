@@ -5,6 +5,9 @@ $(function() {
     $("#signUpButton").click(function() {
         $("#signUpModal").modal("show");
     });
+    $("#bodySignUP").click(function() {
+        $("#signUpModal").modal("show");
+    });
     $("#signUpModal").on('show.bs.modal', function (e) {
         $("#loginModal").modal("hide");
     });
